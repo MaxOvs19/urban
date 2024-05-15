@@ -1,20 +1,22 @@
+import Link from "next/link";
+
 const tabData = [
   {
     id: "sp1",
-    title: "Create task",
-    subtitle: "for any team person",
+    title: "Качество таргетинга",
+    subtitle: "Гарантированно",
     image: "/images/media/img_06.jpg",
   },
   {
     id: "sp2",
-    title: "Make timeframe",
-    subtitle: "for do the task",
+    title: "Качество объявления",
+    subtitle: "Гарантированно",
     image: "/images/media/img_05.jpg",
   },
   {
     id: "sp3",
-    title: "Get task complated",
-    subtitle: "by your member",
+    title: "Быстрые сроки реализации",
+    subtitle: "Гарантированно",
     image: "/images/media/img_06.1.jpg",
   },
 ];
@@ -42,6 +44,12 @@ const ProductTabs = () => {
           </li>
         ))}
       </ul>
+
+      <div className="d-flex justify-content-center mt-100">
+        <Link href="/" className="btn-twentyFive fw-500 tran3s">
+          Давайте сотрудничать
+        </Link>
+      </div>
       <div
         className="tab-content position-relative mt-120 lg-mt-80"
         data-aos="fade-up"

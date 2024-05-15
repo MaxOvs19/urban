@@ -43,8 +43,8 @@ const FeatureBlock = () => {
     <>
       {featuresData.map((feature, index) => (
         <div key={index} className="col-lg-4 col-md-6">
-          <div className="card-style-seventeen d-flex align-items-center mb-40">
-            <div className="icon rounded-circle d-flex align-items-center justify-content-center">
+          <div className="card-style-seventeen d-flex mb-40">
+            <div className="icon rounded-circle d-flex align-items-center justify-content-center mt-40">
               <img src={feature.icon} alt="icon" className="lazy-img" />
             </div>
             <div className="ps-4 text-wrapper">

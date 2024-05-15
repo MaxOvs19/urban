@@ -95,7 +95,7 @@
   position: absolute;
 }
 .ctn-preloader .animation-preloader .txt-loading .letters-loading {
-  font-family: "Recoleta";
+  // font-family: "Recoleta";
   font-weight: 700;
   letter-spacing: 12px;
   display: inline-block;
@@ -180,7 +180,7 @@
   overflow-x: hidden;
 }
 body {
-  font-family: "gordita";
+  font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 16px;
   position: relative;
@@ -286,12 +286,9 @@ p {
   padding: 30px;
 }
 .font-recoleta {
-  font-family: "Recoleta";
+  // font-family: "Recoleta";
 }
 
-.font-inter {
-  font-family: "Inter", sans-serif;
-}
 .text-lg {
   font-size: 24px;
   line-height: 1.67em;
@@ -400,6 +397,19 @@ p {
   font-size: 48px;
   line-height: 1.2em;
 }
+.title-style-tw .main-title span {
+  line-height: 64px;
+}
+.title-style-two .main-title span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: var(--prime-six);
+}
 .title-style-three .sc-title {
   font-size: 14px;
   letter-spacing: 1px;
@@ -407,7 +417,6 @@ p {
   color: rgba(0, 0, 0, 0.3);
 }
 .title-style-three .main-title {
-  font-family: "Recoleta";
   font-size: 64px;
   line-height: 1.15em;
   margin: 0;
@@ -496,7 +505,6 @@ p {
   z-index: -1;
 }
 .title-style-six .sc-title {
-  font-family: "Noteworthy Light";
   font-size: 20px;
   letter-spacing: 3px;
   padding-bottom: 6px;
@@ -2483,7 +2491,7 @@ body .btn-twentySix:hover:after {
   font-size: 22px;
   line-height: 1.41em;
   color: #000;
-  padding: 29px 20%;
+  padding: 29px 10%;
 }
 .fancy-feature-four .nav-tabs .nav-item.show .nav-link,
 .fancy-feature-four .nav-tabs .nav-link.active {
@@ -4050,7 +4058,6 @@ body .btn-twentySix:hover:after {
   transform: translateY(-50%);
 }
 .fancy-feature-thirteen .img-meta .text-meta .tm-heading {
-  font-family: "eustacheregular";
   font-size: 62px;
   letter-spacing: 2px;
   color: #ffc962;
@@ -4287,7 +4294,6 @@ body .btn-twentySix:hover:after {
   padding: 300px 0 300px;
 }
 .hero-banner-five .hero-heading {
-  font-family: "eustacheregular";
   font-size: 170px;
   line-height: 0.73em;
   letter-spacing: -2px;
@@ -4427,7 +4433,7 @@ body .btn-twentySix:hover:after {
   left: 0;
 }
 .fancy-feature-sixteen .ins-title {
-  font-family: "Noteworthy Light";
+  // font-family: "Noteworthy Light";
   font-size: 24px;
   letter-spacing: 2px;
   color: #ff5858;
@@ -4458,7 +4464,7 @@ body .btn-twentySix:hover:after {
   transform: translateY(-50%);
 }
 .fancy-feature-seventeen .shape-three .sp-text1 {
-  font-family: "Noteworthy Light";
+  // font-family: "Noteworthy Light";
   font-size: 36px;
   letter-spacing: 2.5px;
 }
@@ -4503,7 +4509,7 @@ body .btn-twentySix:hover:after {
   max-height: 100%;
 }
 .card-style-nine .title {
-  font-family: "Noteworthy Light";
+  // font-family: "Noteworthy Light";
   font-size: 42px;
   letter-spacing: 4.67px;
 }
@@ -4675,7 +4681,7 @@ body .btn-twentySix:hover:after {
   letter-spacing: 2px;
 }
 .partner-section-three .title span {
-  font-family: "Noteworthy Light";
+  // font-family: "Noteworthy Light";
   font-size: 32px;
   letter-spacing: 3.2px;
   color: #ff3636;
@@ -7799,7 +7805,7 @@ body .btn-twentySix:hover:after {
 .hero-banner-twelve .card-two {
   position: absolute;
   width: 147px;
-  height: 90px;
+  height: fit-content;
   background: #ffffff;
   top: 16%;
   right: -10%;

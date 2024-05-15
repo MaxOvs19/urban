@@ -36,6 +36,25 @@ const education = () => {
         Feature Section Thirty Nine
         =====================================================
         --> */}
+
+      <div className="fancy-feature-forty mt-140 lg-mt-100 font-inter">
+        <div className="container">
+          <div
+            className="title-style-one text-right mb-85 lg-mb-30"
+            data-aos="fade-up"
+          >
+            <div className="title-style-eight ">
+              <h2 className="main-title tx-dark fw-500">
+                Преимущества{" "}
+                <span className="d-inline-block position-relative">
+                  Городского Формата:
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="fancy-feature-thirtyNine position-relative zn2 pt-90 pb-50 lg-pt-50 lg-pb-10 font-inter">
         <div className="container">
           <div className="row gx-xxl-5">

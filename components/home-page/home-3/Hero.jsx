@@ -68,7 +68,7 @@ const Hero = () => {
               {/* /.card-one */}
 
               <div
-                className="card-style card-two d-flex flex-column justify-content-center align-items-center"
+                className="card-style card-two d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
@@ -78,7 +78,7 @@ const Hero = () => {
               {/* /.card-one */}
 
               <div
-                className="card-style card-three d-flex flex-column justify-content-center align-items-center"
+                className="card-style card-three d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
