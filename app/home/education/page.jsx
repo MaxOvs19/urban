@@ -36,7 +36,7 @@ const education = () => {
         Feature Section Thirty Nine
         =====================================================
         --> */}
-      <div className="fancy-feature-thirtyNine position-relative zn2 pt-90 pb-50 lg-pt-50 lg-pb-10">
+      <div className="fancy-feature-thirtyNine position-relative zn2 pt-90 pb-50 lg-pt-50 lg-pb-10 font-inter">
         <div className="container">
           <div className="row gx-xxl-5">
             <FeatureBlock />
@@ -68,7 +68,7 @@ const education = () => {
         Feature Section Forty
         =====================================================
         */}
-      <div className="fancy-feature-forty mt-140 lg-mt-100">
+      <div className="fancy-feature-forty mt-140 lg-mt-100 font-inter">
         <div className="container">
           <div
             className="title-style-one text-center mb-85 lg-mb-30"
@@ -97,7 +97,7 @@ const education = () => {
     Feature Section Forty One
     =====================================================
     */}
-      <div className="fancy-feature-fortyOne position-relative mt-160 lg-mt-100">
+      <div className="fancy-feature-fortyOne position-relative mt-160 lg-mt-100 font-inter">
         <div className="container">
           <div className="row">
             <div className="col-xl-5 col-lg-6" data-aos="fade-right">
@@ -148,7 +148,7 @@ const education = () => {
 		Feature Section Forty Two
 		============================================== 
 		*/}
-      <div className="fancy-feature-fortyTwo position-relative pt-130 pb-180 mt-180 lg-pt-80 lg-pb-80 xs-mt-120">
+      <div className="fancy-feature-fortyTwo position-relative pt-130 pb-180 mt-180 lg-pt-80 lg-pb-80 xs-mt-120 font-inter">
         <div className="rating-box">
           <img src="/images/shape/shape_154.svg" alt="media" />
           <div className="rate fw-500 tx-dark">
@@ -184,7 +184,7 @@ const education = () => {
 			=====================================================
 			*/}
       <div
-        className="feedback-section-thirteen position-relative mt-130 pb-25 lg-mt-100"
+        className="feedback-section-thirteen position-relative mt-130 pb-25 lg-mt-100 font-inter"
         data-aos="fade-up"
       >
         <div className="container">
@@ -231,7 +231,7 @@ const education = () => {
 		Footer
 		=====================================================
 		*/}
-      <div className="footer-style-eleven theme-basic-footer position-relative">
+      <div className="footer-style-eleven theme-basic-footer position-relative font-inter">
         <div className="bg-wrapper position-relative">
           <div className="container">
             <div className="row justify-content-between">

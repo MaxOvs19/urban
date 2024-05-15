@@ -1,18 +1,40 @@
+import Link from "next/link";
+
 const featuresData = [
   {
     icon: "/images/icon/icon_124.svg",
-    title: "Learn skills over 120k+",
-    subtitle: "Video courses.",
+    title: "Отличное расположение",
+    subtitle:
+      "рекламные расположены близко и на уровне глаз. Находятся в самых проходимых местах массивов: КПП, администрация, остановки транспорта, магазины. Просматриваются живым пешеходным трафиком.",
   },
   {
     icon: "/images/icon/icon_125.svg",
-    title: "Choose courses taught",
-    subtitle: "Real-world experts.",
+    title: "Качественная печать",
+    subtitle:
+      "На прочных, погодоустойчивых материалах. Максимальное качество - 1 440 dpi. Оперативно реализуем старт рекламной кампании через 3 дня от начала договоренности.",
   },
   {
     icon: "/images/icon/icon_126.svg",
-    title: "Learn lifetime access on",
-    subtitle: "Mobile and desktop.",
+    title: "Внимание гарантировано",
+    subtitle:
+      "На стендах также размещается важная информация от администрации жилого массива.",
+  },
+  {
+    icon: "/images/icon/icon_124.svg",
+    title: "Разработаем дизайн",
+    subtitle:
+      "а также рекламные месседжи для ваших будущих ярких и привлекательных баннеров.",
+  },
+  {
+    icon: "/images/icon/icon_125.svg",
+    title: "Контроль и фотоотчеты ",
+    subtitle: "каждого баннера на каждом рекламном стенде, еженедельно.",
+  },
+  {
+    icon: "/images/icon/icon_126.svg",
+    title: "Большой сегмент ",
+    subtitle:
+      "платежеспособной аудитории. Более 1 млн. рекламных контактов с жителями коттеджных поселков и отдыхающими загородных домов.",
   },
 ];
 
@@ -33,6 +55,15 @@ const FeatureBlock = () => {
           {/* /.card-style-seventeen */}
         </div>
       ))}
+
+      <div className="d-flex justify-content-center">
+        <Link
+          href="/pages-menu/about-us-v2"
+          className="btn-twentyFive fw-500 tran3s"
+        >
+          Давайте сотрудничать
+        </Link>
+      </div>
     </>
   );
 };
