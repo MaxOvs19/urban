@@ -8854,9 +8854,10 @@ body .btn-twentySix:hover:after {
   color: rgba(0, 0, 0, 1);
 }
 .fancy-short-banner-fifteen form button {
-  width: 110px;
+  width: fit-content;
   height: 55px;
   letter-spacing: 4px;
+  padding: 0 8px;
   background: #000;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/

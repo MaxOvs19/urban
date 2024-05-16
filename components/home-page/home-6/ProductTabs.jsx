@@ -50,7 +50,7 @@ const ProductTabs = () => {
           Давайте сотрудничать
         </Link>
       </div>
-      <div
+      {/* <div
         className="tab-content position-relative mt-120 lg-mt-80"
         data-aos="fade-up"
       >
@@ -79,7 +79,7 @@ const ProductTabs = () => {
             />
           </div>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
