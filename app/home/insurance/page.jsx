@@ -30,7 +30,7 @@ const Insurance = () => {
       <Hero />
       <HowToStartBlock />
 
-      <div className="fancy-feature-fiftySix pt-225 lg-pt-150">
+      <div className="fancy-feature-fiftySix pt-80 lg-pt-150">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -65,7 +65,7 @@ const Insurance = () => {
         </div>
       </div>
 
-      <div className="fancy-feature-twentyFour p-30 mt-130 lg-mt-80">
+      <div className="fancy-feature-twentyFour p-30 mt-80 lg-mt-80">
         <div
           className="bg-wrapper pt-100 lg-pt-80 pb-110 lg-pb-70"
           style={{ background: "#F1FCFF" }}
@@ -74,38 +74,48 @@ const Insurance = () => {
             <div className="block-style-four">
               <div className="row align-items-center">
                 <div
-                  className="col-xl-5 col-lg-6 order-lg-last"
+                  className="col-xl-8 col-lg-6 order-lg-last"
                   data-aos="fade-left"
                 >
                   <div className="title-style-eight">
                     <h2 className="main-title tx-dark fw-bold">
-                      Преимущества
+                      Преимущества{" "}
                       <span className="d-inline-block position-relative">
                         формата:
                       </span>
                     </h2>
                   </div>
-                  <p className="fs-20 lh-lg mt-35 mb-50 lg-mt-20 lg-mb-30">
-                    Lorem ipsum began as scrambled, Latin derived Cicero&apos;s
-                    1st-century BC text De Finibus ubiquitous lorem ipsum
-                    passage.
+                  <p className="fs-20 lh-lg mt-25 mb-10 lg-mt-20 lg-mb-30 ">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Фактор доверия{" "}
+                    </span>
+                    потребителя более высок к наружной рекламе, в отличии от
+                    digital формата
                   </p>
-                  <Link
-                    href="/pages-menu/about-us-v1"
-                    className="btn-fifteen fw-500 position-relative d-inline-flex align-items-center"
-                  >
-                    <span>Click here to learn more</span>{" "}
-                    <Image
-                      width={23}
-                      height={14}
-                      src="/images/icon/icon_69.svg"
-                      alt="arrow icon"
-                      className="ms-2"
-                    />
-                  </Link>
+                  <p className="fs-20 lh-lg mt-25 mb-10  lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Круглосуточный показ{" "}
+                    </span>
+                    рекламы вне зависимости от качества интернета, многократное
+                    воздействие на 1 рекламный контакт
+                  </p>
+
+                  <p className="fs-20 lh-lg mt-25 mb-10  lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Большие охваты{" "}
+                    </span>
+                    и дешевые лиды, ввиду отсутствия аукциона за клик
+                  </p>
+                  <p className="fs-20 lh-lg mt-25 mb-10 lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline fw-bold tx-dark">
+                      Живой формат{" "}
+                    </span>
+                    наружной рекламы которую видят люди, без ad-блоков и явления
+                    “баннерной слепоты”.
+                  </p>
                 </div>
                 <div
-                  className="col-xl-7 col-lg-6 col-md-8 m-auto order-lg-first"
+                  className="col-xl-4 col-lg-6 col-md-8 m-auto order-lg-first"
                   data-aos="fade-right"
                 >
                   <div className="illustration-holder md-mt-60">
@@ -174,7 +184,7 @@ const Insurance = () => {
         />
       </div>
 
-      <div className="fancy-feature-four pt-250 lg-pt-120">
+      <div className="fancy-feature-four pt-150 lg-pt-120">
         <div className="container">
           <div className="row">
             <div
