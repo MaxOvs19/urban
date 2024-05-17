@@ -37,6 +37,20 @@ const WebHosting = () => {
 				Partner Section Four
 			============================================== 
 			*/}
+      <div className="col-xl-9 m-auto" data-aos="fade-up">
+        <div
+          className="title-style-seven text-center lg-pb-50  mt-90 mb-50"
+          data-aos="fade-up"
+        >
+          <h2 className="main-title fw-bold tx-dark">
+            Компании которые нам{" "}
+            <span className="position-relative d-inline-block">
+              доверяют <img src="/images/shape/shape_99.svg" alt="" />
+            </span>
+          </h2>
+        </div>
+        {/* /.title-style-seven */}
+      </div>
       <div className="partner-section-four position-relative pt-100 sm-pt-70">
         <div className="wrapper m-auto">
           <div className="partner_slider_one row">

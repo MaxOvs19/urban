@@ -7,70 +7,268 @@ import Banner from "@/components/home-page/home-1/Banner";
 import Block from "@/components/home-page/home-1/Block";
 import Blog from "@/components/home-page/home-1/Blog";
 import ContactForm from "@/components/home-page/home-1/ContactForm";
-import Feature from "@/components/home-page/home-1/Feature";
-import Hero from "@/components/home-page/home-1/Hero";
+import FeatureBlock from "@/components/home-page/home-3/FeatureBlock";
+import Hero from "@/components/home-page/home-3/Hero";
 import IntroAbout from "@/components/home-page/home-1/IntroAbout";
 import Service from "@/components/home-page/home-1/Service";
 import Testimonial from "@/components/home-page/home-1/Testimonial";
 import WhyChoose from "@/components/home-page/home-1/WhyChoose";
+import HowToStartBlock from "@/components/home-page/home-3/HowToStartBlock";
+import Image from "next/image";
+import ProductTabs from "@/components/home-page/home-6/ProductTabs";
+import Partner from "@/components/home-page/home-2/Partner";
+import CallToActions from "@/components/home-page/home-5/CallToActions";
+
 export const metadata = {
-  title: "Insurance || Jano - Creative Multipurpose React NextJS Template",
+  title: "Urban Format",
 };
+
 const Insurance = () => {
   return (
     <>
-      {/* <!-- 
-      =============================================
-			Theme Default Menu
-			============================================== 	
-      --> */}
       <DefaulHeader />
-      {/* <!-- 
-			=============================================
-			Theme Hero Banner
-			============================================== 
-			--> */}
       <Hero />
-      {/* <!-- 
-			=============================================
-				Feature Section Thirty Four
-			============================================== 
-			--> */}
-      <div className="fancy-feature-thirtyFour mt-50">
+      <HowToStartBlock />
+
+      <div className="fancy-feature-fiftySix pt-80 lg-pt-150">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className="title-style-seven text-center text-lg-start"
+                data-aos="fade-right"
+              >
+                <h2 className="main-title fw-bold tx-dark">
+                  Легко и просто отслеживайте
+                  <span className="position-relative d-inline-block">
+                    эффективность
+                    <Image
+                      width={269}
+                      height={122}
+                      src="/images/shape/shape_96.svg"
+                      alt="shape"
+                    />
+                  </span>
+                </h2>
+              </div>
+            </div>
+
+            <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
+              <p className="m0 fs-20 lh-lg text-center text-lg-start md-pt-20">
+                В объявлениях можно разместить QR-код c UTM меткой, промо-код,
+                или номер телефона с настроенным колл-трекингом. Это позволит
+                легко и быстро анализировать метрики эффективности вашей
+                рекламной кампании.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="fancy-feature-twentyFour p-30 mt-80 lg-mt-80">
+        <div
+          className="bg-wrapper pt-100 lg-pt-80 pb-110 lg-pb-70"
+          style={{ background: "#F1FCFF" }}
+        >
+          <div className="container">
+            <div className="block-style-four">
+              <div className="row align-items-center">
+                <div
+                  className="col-xl-8 col-lg-6 order-lg-last"
+                  data-aos="fade-left"
+                >
+                  <div className="title-style-eight">
+                    <h2 className="main-title tx-dark fw-bold">
+                      Преимущества{" "}
+                      <span className="d-inline-block position-relative">
+                        формата:
+                      </span>
+                    </h2>
+                  </div>
+                  <p className="fs-20 lh-lg mt-25 mb-10 lg-mt-20 lg-mb-30 ">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Фактор доверия{" "}
+                    </span>
+                    потребителя более высок к наружной рекламе, в отличии от
+                    digital формата
+                  </p>
+                  <p className="fs-20 lh-lg mt-25 mb-10  lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Круглосуточный показ{" "}
+                    </span>
+                    рекламы вне зависимости от качества интернета, многократное
+                    воздействие на 1 рекламный контакт
+                  </p>
+
+                  <p className="fs-20 lh-lg mt-25 mb-10  lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline  fw-bold tx-dark">
+                      Большие охваты{" "}
+                    </span>
+                    и дешевые лиды, ввиду отсутствия аукциона за клик
+                  </p>
+                  <p className="fs-20 lh-lg mt-25 mb-10 lg-mt-20 lg-mb-30">
+                    <span className="text-decoration-underline fw-bold tx-dark">
+                      Живой формат{" "}
+                    </span>
+                    наружной рекламы которую видят люди, без ad-блоков и явления
+                    “баннерной слепоты”.
+                  </p>
+                </div>
+                <div
+                  className="col-xl-4 col-lg-6 col-md-8 m-auto order-lg-first"
+                  data-aos="fade-right"
+                >
+                  <div className="illustration-holder md-mt-60">
+                    <Image
+                      width={660}
+                      height={561}
+                      style={{ objectFit: "contain" }}
+                      src="/images/assets/ils_06.png"
+                      alt="illustration"
+                      className="lazy-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* /.block-style-four */}
+          </div>
+          {/* /.container */}
+        </div>
+        {/* /.bg-wrapper */}
+      </div>
+
+      <div className="fancy-feature-forty mt-140 lg-mt-100 font-inter">
+        <div className="container">
+          <div
+            className="title-style-one text-right mb-85 lg-mb-30"
+            data-aos="fade-up"
+          >
+            <div className="title-style-eight ">
+              <h2 className="main-title tx-dark fw-500">
+                Преимущества{" "}
+                <span className="d-inline-block position-relative">
+                  Городского Формата:
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="fancy-feature-thirtyNine position-relative zn2 pt-90 pb-50 lg-pt-50 lg-pb-10 font-inter">
+        <div className="container">
+          <div className="row gx-xxl-5">
+            <FeatureBlock />
+          </div>
+        </div>
+        <img
+          src="/images/shape/shape_148.svg"
+          alt="shape"
+          className="shapes shape-one lazy-img"
+        />
+        <img
+          src="/images/shape/shape_149.svg"
+          alt="shape"
+          className="shapes shape-two lazy-img"
+        />
+        <img
+          src="/images/shape/shape_150.svg"
+          alt="shape"
+          className="shapes shape-three lazy-img"
+        />
+        <img
+          src="/images/shape/shape_151.svg"
+          alt="shape"
+          className="shapes shape-four lazy-img"
+        />
+      </div>
+
+      <div className="fancy-feature-four pt-150 lg-pt-120">
+        <div className="container">
+          <div className="row">
+            <div
+              // className="col-xxl-7 col-md-8 m-auto text-right"
+              className="mb-100 text-right"
+              data-aos="fade-up"
+            >
+              <div className="title-style-two">
+                <h2 className="main-title fw-500">
+                  Другие важные факторы влияющие на{" "}
+                  <span className="d-inline-block position-relative">
+                    успех
+                  </span>{" "}
+                  <br />
+                  вашей рекламной кампании:
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <ProductTabs />
+        </div>
+      </div>
+
+      <div className="col-xl-9 m-auto" data-aos="fade-up">
+        <div
+          className="title-style-seven text-center lg-pb-50  mt-90 mb-50"
+          data-aos="fade-up"
+        >
+          <h2 className="main-title fw-bold tx-dark">
+            Компании которые нам{" "}
+            <span className="position-relative d-inline-block">
+              доверяют <img src="/images/shape/shape_99.svg" alt="" />
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div className="partner-section-four position-relative pt-100 sm-pt-70">
+        <div className="wrapper m-auto">
+          <div className="partner_slider_one row">
+            <Partner />
+          </div>
+        </div>
+      </div>
+
+      <div className="fancy-short-banner-fifteen pt-150 lg-pt-80 pb-30 position-relative zn2 mt-200 lg-mt-100">
+        <CallToActions />
+      </div>
+
+      {/* <div className="fancy-feature-thirtyFour mt-50">
         <div className="container">
           <div className="row gx-xxl-5">
             <Feature />
           </div>
         </div>
-        {/* <!-- /.container --> */}
-      </div>
+      
+      </div> */}
       {/* <!-- /.fancy-feature-thirtyFour --> */}
       {/*
 			=====================================================
 				Feature Section Thirty Five
 			=====================================================
 			*/}
-      <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
+      {/* <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
         <div className="container" data-aos="fade-up">
           <Banner />
-          {/* /.top-banner */}
+         
         </div>
-        {/* End .container */}
+  
 
         <div className="bg-wrapper mt-150 pt-100 lg-mt-80 lg-pt-70">
           <div className="container">
             <IntroAbout />
           </div>
         </div>
-        {/* /.bg-wrapper */}
-      </div>
+        
+      </div> */}
       {/* /.fancy-feature-thirtyFive */}
       {/* 
 			=============================================
 				Feature Section Thirty Six
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtySix mt-190 lg-mt-140">
+      {/* <div className="fancy-feature-thirtySix mt-190 lg-mt-140">
         <div className="container">
           <div className="wrapper position-relative">
             <div className="row">
@@ -88,7 +286,7 @@ const Insurance = () => {
             <div className="row">
               <Service />
             </div>
-            {/* /.row */}
+            
 
             <div className="text-center md-mt-50">
               <Link
@@ -101,15 +299,16 @@ const Insurance = () => {
             </div>
           </div>
         </div>
-        {/* /.container */}
-      </div>
-      {/* /.fancy-feature-thirtySix */}
+     
+      </div> */}
+
       {/* 
 			=============================================
 				Feature Section Thirty Seven
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
+      {/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+      {/* <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
             <div
@@ -124,24 +323,21 @@ const Insurance = () => {
                   </h2>
                 </div>
                 <WhyChoose />
-                {/* /.accordion-style-five */}
               </div>
             </div>
-            {/* End .col-6 */}
 
             <div className="col-xxl-5 col-lg-6 order-lg-first">
               <Block />
             </div>
           </div>
         </div>
-        {/* /.container */}
-      </div>
-      {/* /.fancy-feature-thirtySeven */}
+      </div> */}
+
       {/*=====================================================
 				Feedback Section Eleven
 			=====================================================
 			*/}
-      <div
+      {/* <div
         className="feedback-section-eleven position-relative mt-200 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
         data-aos="fade-up"
       >
@@ -154,28 +350,25 @@ const Insurance = () => {
           <div className="feedback_slider_seven">
             <Testimonial />
           </div>
-
-          {/* /.slider-wrapper */}
         </div>
-        {/* /.inner-content */}
-      </div>
-      {/* /.feedback-section-eleven */}
+      </div> */}
+
       {/* =============================================
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
+
+      {/* <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
         <div className="container">
           <AppBanner />
         </div>
-        {/* /.container */}
-      </div>
-      {/* /.fancy-feature-thirtyEight */}
+      </div> */}
+
       {/*=====================================================
 				Fancy Short Banner Thirteen
 			=====================================================
 			*/}
-      <div
+      {/* <div
         className="fancy-short-banner-thirteen pt-170 pb-170 mt-130 lg-mt-100 lg-pt-80 lg-pb-80 "
         data-aos="fade-up"
       >
@@ -206,12 +399,10 @@ const Insurance = () => {
                     <div className="form-style-two md-mb-40">
                       <ContactForm />
                     </div>
-                    {/* /.form-style-two */}
                   </div>
                 </div>
               </div>
             </div>
-            {/* End .row */}
 
             <div className="shapes shape-text fw-500 fs-20 tx-dark text-center">
               Fill the <br />
@@ -228,14 +419,13 @@ const Insurance = () => {
               className="lazy-img shapes shape-two"
             />
           </div>
-          {/* /.bg-wrapper */}
         </div>
-      </div>
-      {/* /.fancy-short-banner-thirteen */}
+      </div> */}
+
       {/* =============================================
 		   Blog Section Three
 		   ============================================== */}
-      <div className="blog-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
+      {/* <div className="blog-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
         <div className="container">
           <div className="position-relative">
             <div className="row align-items-end">
@@ -246,14 +436,13 @@ const Insurance = () => {
                 >
                   <h2 className="main-title fw-500 tx-dark m0">Our Blog</h2>
                 </div>
-                {/* /.title-style-one */}
               </div>
             </div>
-            {/* /.row */}
+
             <div className="row gx-xxl-5">
               <Blog />
             </div>
-            {/* /.row */}
+
             <div className="text-center xs-mt-40">
               <Link
                 href="/blog/blog-v2"
@@ -265,8 +454,8 @@ const Insurance = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* /.blog-section-three */}
+      </div> */}
+
       {/*
 			=====================================================
 				Footer
@@ -309,7 +498,6 @@ const Insurance = () => {
           data-aos="fade-right"
         />
       </div>
-      {/* /.footer-style-ten */}
     </>
   );
 };

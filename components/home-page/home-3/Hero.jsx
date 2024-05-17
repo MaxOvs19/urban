@@ -2,24 +2,24 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="hero-banner-twelve pt-225 pb-120 lg-pb-80 md-pt-200">
+    <div className="hero-banner-twelve pt-225 pb-120 lg-pb-80 md-pt-200 ">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="text-wrapper" data-aos="fade-right">
               <h1 className="hero-heading fw-500 tx-dark">
-                Start learning from our top experts.
+                Рекламные стенды в Ленинградской области
               </h1>
               <p className="text-lg tx-dark mb-30 pt-35 lg-pt-20 lg-mb-20">
-                Unlock your potential with unlimited short courses &amp; earn
-                certificates to boost your CV.
+                Широкий охват с максимально точным попаданием в вашу ЦА. Оцените
+                эффективность и надежность проверенного формата рекламы.
               </p>
               <div className="d-lg-flex align-items-center">
                 <a
                   href="#"
                   className="btn-twentyFour fw-500 position-relative d-inline-flex align-items-center me-5 mt-30"
                 >
-                  <span>Explore all Courses</span>
+                  <span>Оставить заявку</span>
                   <img
                     src="/images/icon/icon_123.svg"
                     alt="icon"
@@ -28,7 +28,7 @@ const Hero = () => {
                 </a>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark mt-15 md-mt-20">
                   <a href="#" className="fw-500 tran3s">
-                    Join for Free Now!
+                    Скачать презентацию
                   </a>
                 </div>
               </div>
@@ -62,36 +62,28 @@ const Hero = () => {
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
-                <h4>120k+</h4>
-                <p>Online Videos</p>
+                <h4>300+</h4>
+                <p>Стендов</p>
               </div>
               {/* /.card-one */}
 
               <div
-                className="card-style card-two d-flex flex-column justify-content-center align-items-center"
+                className="card-style card-two d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
-                <h4>200+</h4>
-                <p>Categories</p>
+                <h4>1 млн+</h4>
+                <p>Ваших потенциальных клиентов</p>
               </div>
               {/* /.card-one */}
 
               <div
-                className="card-style card-three d-flex flex-column justify-content-center align-items-center"
+                className="card-style card-three d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <h5>80k+ Students</h5>
-                <div className="avatar d-flex align-items-center">
-                  <img src="/images/media/img_59.jpg" alt="" />
-                  <img src="/images/media/img_60.jpg" alt="" />
-                  <img src="/images/media/img_61.jpg" alt="" />
-                  <img src="/images/media/img_62.jpg" alt="" />
-                  <span className="avatar_image avatar_fallback">
-                    <i className="bi bi-arrow-right-short" />
-                  </span>
-                </div>
+                <h4>30+</h4>
+                <p>Вариаций для рекламной стратегии</p>
               </div>
               {/* /.card-one */}
 

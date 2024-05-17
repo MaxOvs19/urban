@@ -15,15 +15,8 @@ export const metadata = {
 const FeaturesV2 = () => {
   return (
     <>
-      {/* <!--  =============================================
-      Theme Header2 Menu
-      ============================================== 	--> */}
       <Header2 />
-      {/* 
-        =============================================
-        Feature Section Fifty Six
-        ============================================== 
-        */}
+
       <div className="fancy-feature-fiftySix pt-225 lg-pt-150">
         <div className="container">
           <div className="row align-items-center">
@@ -33,9 +26,9 @@ const FeaturesV2 = () => {
                 data-aos="fade-right"
               >
                 <h2 className="main-title fw-bold tx-dark">
-                  Premium{" "}
+                  Легко и просто отслеживайте
                   <span className="position-relative d-inline-block">
-                    Hosting{" "}
+                    эффективность
                     <Image
                       width={269}
                       height={122}
@@ -43,7 +36,6 @@ const FeaturesV2 = () => {
                       alt="shape"
                     />
                   </span>
-                  Technologies
                 </h2>
               </div>
               {/* /.title-style-seven */}
@@ -52,10 +44,10 @@ const FeaturesV2 = () => {
 
             <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
               <p className="m0 fs-20 lh-lg text-center text-lg-start md-pt-20">
-                Our vision as a hosting provider is to provide you with the
-                fastest speed, best security, easiest scalability and
-                exceptional support for best web hosting experience that you
-                have ever had.
+                В объявлениях можно разместить QR-код c UTM меткой, промо-код,
+                или номер телефона с настроенным колл-трекингом.  Это позволит
+                легко и быстро анализировать метрики эффективности вашей
+                рекламной кампании.
               </p>
             </div>
           </div>
@@ -134,15 +126,11 @@ const FeaturesV2 = () => {
                   data-aos="fade-left"
                 >
                   <div className="title-style-eight">
-                    <div className="sc-title text-uppercase">
-                      TRSUTED SECURITY
-                    </div>
                     <h2 className="main-title tx-dark fw-bold">
-                      Security <br /> you can{" "}
+                      Преимущества
                       <span className="d-inline-block position-relative">
-                        trust
-                      </span>{" "}
-                      blindly.
+                        формата:
+                      </span>
                     </h2>
                   </div>
                   <p className="fs-20 lh-lg mt-35 mb-50 lg-mt-20 lg-mb-30">

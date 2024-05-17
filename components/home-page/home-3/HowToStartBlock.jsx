@@ -12,18 +12,19 @@ const HowToStartBlock = () => {
           >
             <div className="title-style-one mb-30">
               <h2 className="main-title fw-500 text-white m0">
-                Don’t know how to start.
+                Не просто размещаем баннер,
               </h2>
             </div>
             <p className="fs-20 text-white opacity-75 mb-50 md-mb-30">
-              This short quiz will sort you out. Answer a few simple questions
-              to get personal career advice and course recommendations.
+              а подходим к проведению вашей рекламной кампании с учетом
+              персонального анализа конкурентов, целевой аудитории,
+              местоположения и специфики ваших услуг.
             </p>
             <Link
               href="/pages-menu/about-us-v2"
               className="btn-twentyFive fw-500 tran3s"
             >
-              Let’s get started <i className="bi bi-arrow-right ms-2" />
+              Давайте сотрудничать <i className="bi bi-arrow-right ms-2" />
             </Link>
           </div>
           {/* End .col */}

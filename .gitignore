@@ -61,6 +61,7 @@ typings/
 public-finish
 package-lock.json
 .idea
+.next
 
 # Mac files
 .DS_Store

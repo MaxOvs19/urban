@@ -1,6 +1,6 @@
 import Insurance from "./home/insurance/page";
 export const metadata = {
-  title: "Insurance || Jano - Creative Multipurpose React NextJS Template",
+  title: "Urban Format",
 };
 const MainRoot = () => {
   return <Insurance />;

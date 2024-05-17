@@ -98,10 +98,21 @@ const SassProduct = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-xxl-7 col-md-8 m-auto text-center"
+              // className="col-xxl-7 col-md-8 m-auto text-right"
+              className="mb-100 text-right"
               data-aos="fade-up"
             >
-              <div className="title-style-three">
+              <div className="title-style-two">
+                <h2 className="main-title fw-500">
+                  Другие важные факторы влияющие на{" "}
+                  <span className="d-inline-block position-relative">
+                    успех
+                  </span>{" "}
+                  <br />
+                  вашей рекламной кампании:
+                </h2>
+              </div>
+              {/* <div className="title-style-three">
                 <h2 className="main-title fw-500">
                   Bring all team
                   <span className="d-inline-block position-relative">
@@ -113,11 +124,11 @@ const SassProduct = () => {
                   </span>
                   &amp; task togather
                 </h2>
-              </div>
+              </div> */}
               {/* /.title-style-three */}
-              <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
+              {/* <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
                 After a thorough review of a client’s circumstances and needs.
-              </p>
+              </p> */}
             </div>
           </div>
           {/* End .row */}
