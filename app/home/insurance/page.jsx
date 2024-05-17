@@ -145,7 +145,7 @@ const Insurance = () => {
             data-aos="fade-up"
           >
             <div className="title-style-eight ">
-              <h2 className="main-title tx-dark fw-500">
+              <h2 className="main-title tx-dark fw-bold">
                 Преимущества{" "}
                 <span className="d-inline-block position-relative">
                   Городского Формата:
@@ -193,7 +193,7 @@ const Insurance = () => {
               data-aos="fade-up"
             >
               <div className="title-style-two">
-                <h2 className="main-title fw-500">
+                <h2 className="main-title fw-bold tx-dark">
                   Другие важные факторы влияющие на{" "}
                   <span className="d-inline-block position-relative">
                     успех
