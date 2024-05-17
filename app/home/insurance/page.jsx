@@ -307,7 +307,8 @@ const Insurance = () => {
 				Feature Section Thirty Seven
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
+      {/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+      {/* <div className="fancy-feature-thirtySeven mt-225 lg-mt-120">
         <div className="container">
           <div className="row">
             <div
@@ -330,7 +331,7 @@ const Insurance = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/*=====================================================
 				Feedback Section Eleven
