@@ -8,7 +8,7 @@ const CallToActions = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="contacts">
       <div className="wrapper">
         <div className="row align-items-center">
           <div className="col-lg-6" data-aos="fade-right">

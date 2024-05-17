@@ -39,14 +39,16 @@ const ProductTabs = () => {
               role="tab"
             >
               {tab.title}
-              <span className="d-none d-lg-inline-block">{tab.subtitle}</span>
+              <span className="d-none d-lg-inline-block text-decoration-underline fw-500">
+                {tab.subtitle}
+              </span>
             </button>
           </li>
         ))}
       </ul>
 
       <div className="d-flex justify-content-center mt-100">
-        <Link href="/" className="btn-twentyFive fw-500 tran3s">
+        <Link href="#contacts" className="btn-twentyFive fw-500 tran3s">
           Давайте сотрудничать
         </Link>
       </div>

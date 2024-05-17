@@ -7,23 +7,20 @@ const HowToStartBlock = () => {
       <div className="container">
         <div className="row ">
           <div
-            className="col-xl-5 col-md-6 ms-auto order-md-last"
+            className="col-xl-6 col-md-6 ms-auto order-md-last"
             data-aos="fade-right"
           >
             <div className="title-style-one mb-30">
-              <h2 className="main-title fw-500 text-white m0">
-                Не просто размещаем баннер,
+              <h2 className="main-title fw-600 text-white m0 ">
+                Не просто размещаем баннер
               </h2>
             </div>
             <p className="fs-20 text-white opacity-75 mb-50 md-mb-30">
-              а подходим к проведению вашей рекламной кампании с учетом
+              А подходим к проведению вашей рекламной кампании с учетом
               персонального анализа конкурентов, целевой аудитории,
               местоположения и специфики ваших услуг.
             </p>
-            <Link
-              href="/pages-menu/about-us-v2"
-              className="btn-twentyFive fw-500 tran3s"
-            >
+            <Link href="#contacts" className="btn-twentyFive fw-500 tran3s">
               Давайте сотрудничать <i className="bi bi-arrow-right ms-2" />
             </Link>
           </div>

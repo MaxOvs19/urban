@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="text-wrapper" data-aos="fade-right">
-              <h1 className="hero-heading fw-500 tx-dark">
+              <h1 className="main-title fw-bold tx-dark">
                 Рекламные стенды в Ленинградской области
               </h1>
               <p className="text-lg tx-dark mb-30 pt-35 lg-pt-20 lg-mb-20">
@@ -16,7 +16,7 @@ const Hero = () => {
               </p>
               <div className="d-lg-flex align-items-center">
                 <a
-                  href="#"
+                  href="#contacts"
                   className="btn-twentyFour fw-500 position-relative d-inline-flex align-items-center me-5 mt-30"
                 >
                   <span>Оставить заявку</span>
@@ -27,7 +27,7 @@ const Hero = () => {
                   />
                 </a>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark mt-15 md-mt-20">
-                  <a href="#" className="fw-500 tran3s">
+                  <a href="#contacts" className="fw-500 tran3s">
                     Скачать презентацию
                   </a>
                 </div>
@@ -62,7 +62,7 @@ const Hero = () => {
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
-                <h4>300+</h4>
+                <h4 className="fw-600">300+</h4>
                 <p>Стендов</p>
               </div>
               {/* /.card-one */}
@@ -72,7 +72,7 @@ const Hero = () => {
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
-                <h4>1 млн+</h4>
+                <h4 className="fw-600">1 млн+</h4>
                 <p>Ваших потенциальных клиентов</p>
               </div>
               {/* /.card-one */}
@@ -82,7 +82,7 @@ const Hero = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <h4>30+</h4>
+                <h4 className="fw-600">30+</h4>
                 <p>Вариаций для рекламной стратегии</p>
               </div>
               {/* /.card-one */}
